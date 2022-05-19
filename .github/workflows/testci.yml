@@ -26,7 +26,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     
-    - name: just start
-      uses: actions/setup-node@v3
-    - run: npm start
-
+ 
